@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+body {
+	border: 18px solid #bdc3c7;
+	padding: 20px;
+	width: 65%;
+	max-width: 700px;
+	margin: 3% auto 3% auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	color: #2c3e50;
+	font-size: 2.5rem;
+}
+
+.post {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.quote {
+	border-left: 6px solid #bdc3c7;
+	padding-left: 10px;
+}
+
+.date {
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 0.25rem;
+}
+
+hr.stylehr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
