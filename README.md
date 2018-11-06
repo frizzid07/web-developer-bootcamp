@@ -10,3 +10,4 @@ Test Sites and Pages developed during the Course
 6. CSS Image Gallery
 7. CSS Blog Articles
 8. Bootstrap Image Gallery
+9. Startup Landing Page
