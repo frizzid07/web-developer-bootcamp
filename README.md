@@ -11,3 +11,5 @@ Test Sites and Pages developed during the Course
 7. CSS Blog Articles
 8. Bootstrap Image Gallery
 9. Startup Landing Page
+10. JS Guessing Game
+11. JS Annoy-o-Matic
