@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+	text-align: center;
+	background: url("https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 8px 13px rgba(0,0,0,0.3),
+				 0px 18px 24px rgba(0,0,0,0.2);
+}
+
+html {
+	height: 100%;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+#winamount {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.playerelement {
+	display: inline-block;
+	padding: 2.5%;
+}
+
+#score1, #score2 {
+	color: black;
+	font-size: 3rem;
+}
+
+.dice {
+	background: white;
+	height: 125px;
+	width: 125px;
+	margin-right: 15%;
+	margin-left: 15%;
+	font-size: 2.5rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+#show {
+	visibility: hidden;
+}
+
+#display {
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.4),
+				 0px 18px 24px rgba(0,0,0,0.3);
+}
+
+#reset {
+	height: 55px;
+	width: 175px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+}

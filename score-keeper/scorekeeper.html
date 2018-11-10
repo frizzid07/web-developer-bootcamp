@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="./scorekeeper.css">
+	<script type="text/javascript" src="./scorekeeper.js"></script>
+</head>
+<body>
+	<div>
+		<h1>SCORE KEEPER</h1>
+		<h3>PLAYING FOR: <input type="number" id="winamount" min="1" max="10"></h3>
+	</div>
+	<div>
+		<div class="playerelement"><h2>PLAYER ONE</h2></div>
+		<div class="playerelement"><h2 id="score1">0</h2></div>
+		<div class="playerelement"><h2 id="seperator">-</h2></div>
+		<div class="playerelement"><h2 id="score2">0</h2></div>
+		<div class="playerelement"><h2>PLAYER TWO</h2></div>
+	</div>
+	<div>
+		<button class="dice" id="dice1" onclick="spin1()">ROLL</button>
+		<button class="dice" id="dice2" onclick="spin2()">ROLL</button>
+	</div>
+	<div id="show">
+		<h1 id="display"><span id="winner"></span> VICTORY!</h1>
+		<button id="reset" onclick="restart()">Restart the Game</button>
+	</div>
+</body>
+</html>

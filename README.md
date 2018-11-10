@@ -15,3 +15,5 @@ Test Sites and Pages developed during the Course
 11. JS Annoy-o-Matic
 12. Fully-functioned Todo List
 13. Movie Array DB
+14. Random Color Changer
+15. Player Score Keeper
