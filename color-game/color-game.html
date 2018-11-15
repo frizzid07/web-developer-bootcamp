@@ -8,10 +8,20 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./color-game.css" />
 </head>
 <body>
-    <h1>The Color Game</h1>
-    <h1><span id="colorDisplay">RGB</span></h1>
-    <h2><span id="guess"></span></h2>
+    <h1>THE COLOR<br><span id="colorDisplay">RGB</span><br>GAME</h1>
+    <div id="stripe">
+        <button id="reset">Try with New Colors</button>
+        <span id="guess"></span>
+        <span id="rightalign">
+            <button class="mode" id="easy">Easy</button>
+            <button class="mode selected" id="medium">Medium</button>
+            <button class="mode" id="hard">Hard</button>
+        </span>
+    </div><br>
     <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
