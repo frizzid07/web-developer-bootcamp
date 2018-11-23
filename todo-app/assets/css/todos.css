@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:400,700');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    background-image: url("../todolist-bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    background: #9933ff;
+    color: white;
+    margin: 0;
+    padding: 3%;
+    padding-left: 6%;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+input {
+    width: 100%;
+    font-size: 22px;
+    background: #f7f7f7;
+    padding: 12px 12px 12px 15px;
+    box-sizing: border-box;
+    color: #9933ff;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 3px solid rgba(0, 0, 0, 0);
+    display: none;
+}
+
+input:focus {
+    border: 2px solid #9933ff;
+    background: #ffffff;
+    outline: none;
+}
+
+.fa-chevron-down, .fa-chevron-up {
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 2%; 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background: red;
+    height: 100%;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    opacity: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+}
+
+li:hover .item{
+    width: 12%;
+    opacity: 1;
+}
+
+li {
+    background: #ffffff;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+li:nth-of-type(2n) {
+    background: #f7f7f7;
+}
+
+#container {
+    width: 35%;
+    min-width: 400px;
+    background: #f7f7f7;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 5% auto;
+}
+
+.selected {
+    color: gray;
+    text-decoration: line-through;
+}
